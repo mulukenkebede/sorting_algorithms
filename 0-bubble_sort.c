@@ -1,7 +1,6 @@
 #include "sort.h"
 
 /**
-<<<<<<< HEAD
  * bubble_sort - sorts an array of integers in ascending order using the
  * Bubble sort algorithm
  * @array: The array to be sorted
@@ -13,7 +12,7 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, n, new_n;
 	int swap;
-=======
+/**
  * swap_num - Swap two integers in an array.
  * @x: The first integer to swap.
  * @y: The second integer to swap.
@@ -38,12 +37,10 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, len = size;
 	bool sorted = false;
->>>>>>> c8f665d34abc1629cf761db1b2f3d83929f244dd
 
 	if (array == NULL || size < 2)
 		return;
 
-<<<<<<< HEAD
 	n = size;
 	while (n > 0)
 	{
@@ -60,7 +57,6 @@ void bubble_sort(int *array, size_t size)
 			}
 		}
 		n = new_n;
-=======
 	while (sorted == false)
 	{
 		sorted = true;
